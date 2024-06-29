@@ -39,6 +39,7 @@ button {
 .roomContainer {
   height: 30rem;
   width: 42rem;
+  margin: 1rem;
   border-radius: 2rem;
   background-color: rgba(217, 217, 217, 1);
 }
@@ -92,9 +93,18 @@ button {
   border-right: 4px solid rgba(90, 154, 168, 1);
 }
 
+.cell {
+  height: 6rem;
+  aspect-ratio: 1;
+  display: flex;
+  font-size: 3.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
 .cells {
   display: flex;
-  width: 260px;
+  width: calc(3 * 6rem);
   flex-wrap: wrap;
 }
 
