@@ -15,7 +15,7 @@ const useTicTakToe = () => {
 
   useEffect(() => {
     setInterval(() => {
-      fetch("/status")
+      fetch("/api/status")
         .then((res) => res.json())
         .then((res) => {
           console.log(res);

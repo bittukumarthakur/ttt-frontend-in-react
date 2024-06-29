@@ -15,7 +15,7 @@ const JoinRoom = ({ setRoomId, roomId, userName }) => {
       body: JSON.stringify({ roomId, userName }),
     };
 
-    fetch("/join-room", req).then((res) => {
+    fetch("/api/join-room", req).then((res) => {
       if (res.status == 400) {
         setIsInvalidRoomId(true);
         return;

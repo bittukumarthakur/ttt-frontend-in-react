@@ -8,7 +8,7 @@ const Home = ({ setUserName, userName, setRoomId }) => {
   };
 
   const handleCreateRoom = () => {
-    fetch(`/create-room?hostName=${userName}`)
+    fetch(`/api/create-room?hostName=${userName}`)
       .then((res) => {
         return res.json();
       })

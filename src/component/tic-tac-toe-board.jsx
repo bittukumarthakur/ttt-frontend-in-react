@@ -4,7 +4,7 @@ import "../style/component-style.css";
 const Cells = ({ state, setState }) => {
   const cells = state.board.map((text, id) => {
     const onClick = () => {
-      fetch(`/mark?position=${id}`)
+      fetch(`/api/mark?position=${id}`)
         .then((x) => x.json())
         .then((x) => {
           setState(x);
