@@ -1,3 +1,41 @@
+```js
+{
+    "players": [
+        {
+            "name": "bittu",
+            "symbol": "O"
+        },
+        {
+            "name": "raj",
+            "symbol": "X"
+        }
+    ],
+    "currentPlayerName": "raj",
+    "board": [
+        "O",
+        "O",
+        "O",
+        " ",
+        " ",
+        " ",
+        " ",
+        "O",
+        " "
+    ],
+    "winner": {
+        "player": {
+            "name": "bittu",
+            "symbol": "O"
+        },
+        "winningComb": [
+            0,
+            1,
+            2
+        ]
+    }
+}
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

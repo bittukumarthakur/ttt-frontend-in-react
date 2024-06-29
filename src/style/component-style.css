@@ -1,0 +1,106 @@
+.displayFlexColumnStyle {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input {
+  font-size: 1.5rem;
+  width: 12rem;
+}
+
+.lableStyle {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 22rem;
+  width: 16rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  background: rgba(139, 205, 220, 1);
+}
+
+button {
+  padding: 0.3rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.boardHeader {
+  color: red;
+}
+
+.roomContainer {
+  height: 30rem;
+  width: 42rem;
+  border-radius: 2rem;
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.roomHeader {
+  height: 4.5rem;
+  border-radius: 2rem 2rem 0rem 0rem;
+  background-color: rgba(139, 205, 220, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.playerSymbol {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 1.5rem;
+  border: 1px solid black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontSize1-5rem {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.verticalLine {
+  border-right: 2px solid black;
+  height: 2rem;
+}
+
+#cell-id-0,
+#cell-id-1,
+#cell-id-3,
+#cell-id-4 {
+  border-right: 4px solid rgba(90, 154, 168, 1);
+  border-bottom: 4px solid rgba(90, 154, 168, 1);
+}
+
+#cell-id-2,
+#cell-id-5 {
+  border-bottom: 4px solid rgba(90, 154, 168, 1);
+}
+
+#cell-id-6,
+#cell-id-7 {
+  border-right: 4px solid rgba(90, 154, 168, 1);
+}
+
+.cells {
+  display: flex;
+  width: 260px;
+  flex-wrap: wrap;
+}
+
+.cellsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+}
