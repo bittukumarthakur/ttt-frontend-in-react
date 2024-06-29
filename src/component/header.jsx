@@ -39,7 +39,7 @@ const HeaderBar = ({ roomId }) => {
     <header style={style}>
       <span
         style={{
-          fontSize: "3.5rem",
+          fontSize: "2rem",
           textAlign: "center",
           gridColumnStart: "2",
         }}
