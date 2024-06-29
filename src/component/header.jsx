@@ -1,26 +1,10 @@
 const UserIcon = ({ roomId }) => {
-  const style = {
-    background: "rgba(217, 217, 217, 1)",
-    height: "3.5rem",
-    width: "3.5rem",
-    border: "2px solid black",
-    borderRadius: "50%",
-    marginRight: "1rem",
-  };
-
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        gap: "1rem",
-        justifyContent: "flex-end",
-      }}
-    >
+    <div className="userIconContainer">
       <span style={{ fontSize: "1.5rem" }}>
         {roomId ? `Room Id: ${roomId}` : ""}
       </span>
-      <div style={style}></div>
+      <div className="userIcon"></div>
     </div>
   );
 };
@@ -36,12 +20,13 @@ const HeaderBar = ({ roomId }) => {
   };
 
   return (
-    <header style={style}>
+    <header className="headerBar">
       <span
         style={{
           fontSize: "2rem",
           textAlign: "center",
           gridColumnStart: "2",
+          padding: "1rem",
         }}
       >
         Tic Tac Toe
