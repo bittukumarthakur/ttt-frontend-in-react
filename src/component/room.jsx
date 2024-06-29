@@ -22,7 +22,7 @@ const useTicTakToe = () => {
           return res;
         })
         .then(setGameStatus);
-    }, 2000);
+    }, 20);
   }, []);
 
   return [gameStatus, setGameStatus];
